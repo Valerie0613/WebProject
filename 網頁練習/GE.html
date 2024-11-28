@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Equality</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="gender-equality">
+    <div class="gender-equality">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showContent('intro')">Introduction</a></li>
+                    <li><a href="#" onclick="showContent('game')">Game</a></li>
+                    <li><a href="#" onclick="showContent('news')">News</a></li>
+                    <li><a href="#" onclick="showContent('sharing')">Sharing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="intro">Introduction content here</div>
+        <div id="game" style="display:none;">Game content here</div>
+        <div id="news" style="display:none;">News content here</div>
+        <div id="sharing" style="display:none;">Sharing content here</div>
+
+        <script>
+            function showContent(id) {
+                document.getElementById('intro').style.display = 'none';
+                document.getElementById('game').style.display = 'none';
+                document.getElementById('news').style.display = 'none';
+                document.getElementById('sharing').style.display = 'none';
+                document.getElementById(id).style.display = 'block';
+            }
+
+            // 默認顯示 Introduction
+            showContent('intro');
+        </script>
+    </div>
+</body>
+
+</html>

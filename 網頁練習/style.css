@@ -1,0 +1,82 @@
+#zero-hunger { /* #zero-hunger 是一個 ID 選擇器，針對具有 id="zero-hunger" 的元素*/
+    background-color: #ffffff; /* ZH頁面背景顏色*/
+
+    /*background-image: url('images/unnamed.png');   
+    background-size: cover;   
+    background-position:center;
+    background-repeat: no-repeat;*/
+}
+
+#zero-hunger nav { /*有提到nav的就是在指上面的導航欄*/
+    background-color: #faca78;
+    padding: 15px; /* 導航欄內部的上下左右內邊距 */
+    margin-bottom: 20px; /* 導航欄底部與下方內容之間的間距 */
+    border-radius: 15px; /* 導航欄的圓角效果 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 導航欄的陰影效果 */
+}
+#gender-equality nav{
+    background-color: #fbb1bde8;
+    padding: 15px; /* 導航欄內部的上下左右內邊距 */
+    margin-bottom: 20px; /* 導航欄底部與下方內容之間的間距 */
+    border-radius: 15px; /* 導航欄的圓角效果 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 導航欄的陰影效果 */
+}
+#life-below-water nav{
+    background-color: #b1e3fbe8;
+    padding: 15px; /* 導航欄內部的上下左右內邊距 */
+    margin-bottom: 20px; /* 導航欄底部與下方內容之間的間距 */
+    border-radius: 15px; /* 導航欄的圓角效果 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 導航欄的陰影效果 */
+}
+#life-on-land nav{
+    background-color: #86f57ce8;
+    padding: 15px; /* 導航欄內部的上下左右內邊距 */
+    margin-bottom: 20px; /* 導航欄底部與下方內容之間的間距 */
+    border-radius: 15px; /* 導航欄的圓角效果 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 導航欄的陰影效果 */
+}
+
+
+nav ul {
+    list-style-type: none; /* 去除列表項目的符號 */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* 水平分佈項目，均勻間隔 */
+}
+
+nav li {
+    margin-right: 70px; /* 每個列表項目右側的間距 */
+}
+
+nav a {
+    font-size: 27px;
+    text-shadow: 2px 2px 4px rgba(130, 126, 126, 0.5);
+    text-decoration: none; /* 去除鏈接下劃線 */
+    color: #4d4a4a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;  /* 字體加粗 */
+    padding: 10px 15px;
+    border-radius:10px;
+    transition: background-color 0.3s, color 0.3s; /* 添加過渡效果 */
+}
+
+#zero-hunger nav a:hover {
+    background-color: #ffaa00f5;
+    color: rgb(255, 255, 255);
+    padding: 30px 50px; /* 增加內邊距以擴大背景框 */
+}
+#gender-equality nav a:hover {
+    background-color: #f37190e7;
+    color: rgb(255, 255, 255);
+    padding: 30px 50px; /* 增加內邊距以擴大背景框 */
+}
+#life-below-water nav a:hover {
+    background-color: #56beffe7;
+    color: rgb(255, 255, 255);
+    padding: 30px 50px; /* 增加內邊距以擴大背景框 */
+}
+#life-on-land nav a:hover {
+    background-color: #4dcd62e7;
+    color: rgb(255, 255, 255);
+    padding: 30px 50px; /* 增加內邊距以擴大背景框 */
+}
